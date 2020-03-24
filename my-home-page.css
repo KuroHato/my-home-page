@@ -13,9 +13,12 @@ body{
     height: 100%;
 }
 
-header{
+
+
+.title{
     background-color: #191970;
 }
+
 
 .kurohatos-room{
     color:#fffafa;
@@ -31,7 +34,12 @@ header{
 h1{
     text-align: center;
 }
-
+.picture{
+    content: url(image/sky.png);
+    width: 100%;
+    height: 300px;
+    position: ;
+}
 ul{
     background-color: white;
     height: 40px;
