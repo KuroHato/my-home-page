@@ -1,5 +1,6 @@
 *{
     margin: 0 0 0 0;
+    padding:0 0 0 0;
 }
 a{
     text-decoration: none;
@@ -17,6 +18,7 @@ body{
 
 .title{
     background-color: #191970;
+    margin: 0;
 }
 
 
@@ -29,16 +31,27 @@ body{
     padding-left: 3%;
     text-rendering: optimizeLegibility;
     height: 15%;
+    width: 50%;
+}
+.menu-botton{
+    margin-top: 5px;
+    position: absolute;
+    left: 95%;
 }
 
+.menu-icon{
+    content: url(image/menu.png);
+    width: 60px;
+    height: 60px;
+    float: right;
+}
 h1{
     text-align: center;
 }
 .picture{
     content: url(image/sky.png);
     width: 100%;
-    height: 300px;
-    position: ;
+    height: 400px;
 }
 ul{
     background-color: white;
@@ -66,7 +79,32 @@ main{
     padding:20px;
 }
 
+.profile{
+    border:double black 1px;
+    background-color: white;
+    width: 70%;
+    height: 440px;
+    margin:auto;
+    margin-bottom: 20px;
+}
 
+.myself{
+    content:url(image/myself-triminged.jpg);
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    float: left;
+    width: 300px;
+    height: 375px;
+}
+
+.introduce{
+    float: left;
+    margin-left: 340px;
+    width: 300px;
+    height: 375px;
+    margin:20px 20px 20px 20px;
+    text-align: left;
+}
 .twitter-box{
     text-align: left;
     margin-left: 30%;
@@ -102,4 +140,10 @@ main{
 .books{
     text-align: left;
     margin-left: 20%;
+}
+
+@media screen and (Max-width:320px){
+    .kurohatos-room{
+        font-size: 30px;
+    } 
 }
